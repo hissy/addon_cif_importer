@@ -1,6 +1,6 @@
 <?php	defined('C5_EXECUTE') or die("Access Denied.");?>
 
-<?php	echo Loader::helper('concrete/dashboard')->getDashboardPaneHeaderWrapper(t('Convert to XML from CSV'), false, 'span10 offset1', false)?>
+<?php	echo Loader::helper('concrete/dashboard')->getDashboardPaneHeaderWrapper(t('Import XML'), false, 'span10 offset1', false)?>
 
 <form action="<?php echo $this->action('import')?>" method="post" class="form-horizontal">
 	
