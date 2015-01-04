@@ -1,0 +1,14 @@
+{
+  "name": "addon_cif_importer",
+  "description": "Import XML (CIF) file to your concrete5 site.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hissy/addon_cif_importer.git"
+  },
+  "author": "Takuro Hishikawa <hishikawa@concrete5.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-zip": "latest"
+  }
+}
