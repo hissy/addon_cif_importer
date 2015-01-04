@@ -4,7 +4,7 @@ Import XML (concrete5-cif format) file to your concrete5 site.
 
 ## Compatibility
 
-5.6.2 - 5.6.x
+5.7.3+
 
 ## FAQ
 
@@ -16,8 +16,8 @@ No, please upload your files to your file manager before importing a xml file.
 
 Please use other add-ons.
 
-* [Sample Content Generator](https://github.com/concrete5/addon_sample_content_generator)
-* [CSV to XML Converter](https://github.com/hissy/addon_csv_xml_converter)
+* [Sample Content Generator](https://github.com/concrete5/addon_sample_content_generator) (Not yet compatible with 5.7)
+* [CSV to XML Converter](https://github.com/hissy/addon_csv_xml_converter) (Not yet compatible with 5.7)
 
 ## License
 
