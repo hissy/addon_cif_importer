@@ -7,7 +7,7 @@ class Controller extends \Concrete\Core\Package\Package
 {
     protected $pkgHandle = 'cif_importer';
     protected $appVersionRequired = '5.7.3';
-    protected $pkgVersion = '0.2';
+    protected $pkgVersion = '0.2.1';
     
     public function getPackageName()
     {
