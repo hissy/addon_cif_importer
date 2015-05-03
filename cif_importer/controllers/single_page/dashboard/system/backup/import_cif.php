@@ -21,18 +21,18 @@ class ImportCif extends \Concrete\Core\Page\Controller\DashboardPageController {
             
             $fID = $this->post('fID');
             if (!$valn->integer($fID)) {
-                $this->error->add($fi->getErrorMessage(Importer::E_FILE_INVALID));
+                $this->error->add($fi->getErrorMessage(FileImporter::E_FILE_INVALID));
             } else {
                 $f = File::getByID($fID);
                 if (!is_object($f)) {
-                    $this->error->add($fi->getErrorMessage(Importer::E_FILE_INVALID));
+                    $this->error->add($fi->getErrorMessage(FileImporter::E_FILE_INVALID));
                 }
             }
             
             if (!$this->error->has()) {
                 $fsr = $f->getFileResource();
                 if (!$fsr->isFile()) {
-                    $this->error->add($fi->getErrorMessage(Importer::E_FILE_INVALID));
+                    $this->error->add($fi->getErrorMessage(FileImporter::E_FILE_INVALID));
                 } else {
                     $ci = new ContentImporter();
                     $ci->importContentString($fsr->read());
